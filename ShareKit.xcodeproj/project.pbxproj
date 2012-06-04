@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D0C3473157D6E5C0054402C /* SHKInstagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C3472157D6E5C0054402C /* SHKInstagram.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -265,6 +266,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D0C3471157D6E5C0054402C /* SHKInstagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHKInstagram.h; path = Instagram/SHKInstagram.h; sourceTree = "<group>"; };
+		1D0C3472157D6E5C0054402C /* SHKInstagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHKInstagram.m; path = Instagram/SHKInstagram.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* ShareKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -597,6 +600,15 @@
 				7A0F9246156BA2A0009CB40A /* libShareKitNoSubmodules.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1D0C346C157D6DD00054402C /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				1D0C3471157D6E5C0054402C /* SHKInstagram.h */,
+				1D0C3472157D6E5C0054402C /* SHKInstagram.m */,
+			);
+			name = Instagram;
 			sourceTree = "<group>";
 		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
@@ -981,6 +993,7 @@
 		43A536C011DBE3B9004A1712 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				1D0C346C157D6DD00054402C /* Instagram */,
 				7A0F91CB156B9FCE009CB40A /* Delicious */,
 				FDB495A11520349A00505A99 /* Readability */,
 				B7EFCD8914C6B966004910F1 /* Diigo */,
@@ -1515,6 +1528,7 @@
 				43A5383A11DBE493004A1712 /* RootViewController.m in Sources */,
 				43A5383B11DBE493004A1712 /* ShareKitAppDelegate.m in Sources */,
 				7AA40570146F1D6400685C81 /* ShareKitDemoConfigurator.m in Sources */,
+				1D0C3473157D6E5C0054402C /* SHKInstagram.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
